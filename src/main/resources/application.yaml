@@ -3,7 +3,7 @@ spring:
     name: chatbot
   ai:
     openai:
-      api-key: ${API_KEY}
+      api-key: ${OPENAI_API_KEY}
       chat:
         options:
           model: gpt-4o-mini
