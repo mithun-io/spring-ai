@@ -1,1 +1,1 @@
-## https://console.groq.com // to create api key
+https://console.groq.com // to create api key
