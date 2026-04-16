@@ -13,7 +13,7 @@ public class AiService {
     private final ChatClient chatClient;
 
     public String generateResponse(String message) {
-
+        log.info("API KEY: {}", System.getenv("GROQ_API_KEY"));
         log.info("Processing user message: {}", message);
 
         try {
